@@ -335,4 +335,51 @@ footer {
   font-size: 14px;
   opacity: .7;
 }
+
+.fade-element-up {
+  opacity: 0;
+  -webkit-transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
+}
+
+.fade-element-up {
+  transform: translateY(50px);
+  -webkit-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+}
+
+.reveal-up {
+  opacity: 1;
+  -webkit-transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
+}
+
+.reveal-up {
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+}
+
+div#loadingSpinner {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f5f9ff;
+  z-index: 2000;
+}
+
+div#loadingSpinner .spinner-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+div#loadingSpinner .spinner-wrapper .spinner-grow {
+  width: 3rem;
+  height: 3rem;
+}
 /*# sourceMappingURL=style.css.map */
