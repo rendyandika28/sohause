@@ -16,7 +16,7 @@ Welcome to the Software House Landing Page project! This project is a responsive
 
 ## Demo
 
-To see a live preview of the Software House Landing Page, you can visit [Demo Link](link_to_live_demo).
+To see a live preview of the Software House Landing Page, you can visit [Demo Link](https://sohouse.netlify.app/).
 
 ## Features
 
